@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+    background-image: url("background.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+
+    min-height: 10550px;
+    background-color: black;
+        
+}
+#Yanzhao{
+    padding: 10px;
+    height:30px;
+}
+
+.header {
+    position: fixed;
+    /* use sticky later */
+    margin: 0px;
+    width: 100%;
+    height:50px;
+} .mainheader {
+    float: left; 
+    width: 54%; 
+    height:100%;
+} .navigation {
+    align-items: center;
+    display: flex;
+    float: left; 
+    width: 46%; 
+    height:100%;
+} .menu {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    float: left; 
+    padding-right: 20px;
+
+    
+    height:100%;
+    align-items: center;
+    display: flex;
+    color: #848484;
+}
+
