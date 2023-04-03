@@ -1,9 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 100vw;
     height: 100%;
     margin: 0px;
     background-color: black;
-    background-image: url("backgroundwl.png");
+    background-image: url("images/backgroundwl.png");
     background-size:185%;
     background-repeat: repeat;
     background-position:center;
@@ -26,9 +30,26 @@ body {
     width: 100%;
     height:7vh;
     display:flex;
-} .Yanzhao{
+    z-index: 5;
+    position: absolute;
+} .sticky {
+    position: fixed;
+    top: 0vw;
+    /* padding-top: 2.5vw; */
+    width: 98%;
+    background-image: linear-gradient(#0e0e0e83,#0e0e0e83,#0e0e0e83,#0e0e0e83,#0e0e0e83,transparent);
+}.sticky + .content {
+    padding-top: 102px;
+}.Yanzhao{
     margin: auto;
-    padding-left: 2vh;
+    padding-left: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}.yanzhaoi{
+    margin: auto;
+    
     height: 2vw;
 }.mainheaderi{
     margin: 0px;
@@ -60,24 +81,27 @@ body {
     float: right; 
     align-items: center;
     display: flex;
-    color: #848484;
     align-self: center;
+}.menulink{
+    color: #848484;
+    text-decoration: none;
 }
 
 #initialpage{
     background-color: black;
-    background-image: url("square.png");
+    background-image: url("images/square.png");
     background-size:150%;
     background-repeat: repeat;
     background-position: center;
-    /* border: 1px solid #848484; */
     margin: 0;
     width: 100%;
     height: 100vh;
     align-items: auto;
+    /* border: 1px solid #848484; */
 } .introduction {
+    position: absolute;
     padding-left: 2.05vw;
-    margin-top:31vh;
+    margin-top:38vh;
     margin-left: 0;
     height: 300px;
     /* border: 1px solid #848484; */
@@ -130,8 +154,12 @@ body {
 } .LiuYanzhao{
     color:#840CC2
 } .transition{
+    position: absolute;
+    bottom: 0;
     height: 26.8vh;
+    width: 100vw;
     background-image: linear-gradient(transparent, #0E0E0E);
+    /* border: 1px solid #848484; */
 }
 
 #mainheader {
@@ -140,7 +168,7 @@ body {
     justify-content: center;
 }
 
-.secondpage{
+#secondpage{
     background-color: #0E0E0E;
     background-size:100%;
     background-repeat: no-repeat;
@@ -195,42 +223,30 @@ body {
     margin-block-end: 0;
 }
 
-.thirdpage{
+#thirdpage{
     background-color: #0E0035;
     background-size:100%;
     padding-left: 2.05vw;
     min-height: 570vw;
     /* border: 1px solid #848484; */
 }.twentytwentythree{
-    position:absolute;
-    margin-left: -7vw;
-    margin-top: 4vw;
-    color: #34294E;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 949;
-    font-size: 20vw;
-    line-height: 52px;
+    position: absolute;
+    margin-left: -10vw;
+    margin-top: -3vw;
+    width: 65vw;
+    z-index: 1;
 }.twentytwentytwo{
     position: absolute;
-    margin-left: -7vw;
-    margin-top: 110vw;
-    color: #34294E;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 949;
-    font-size: 20vw;
-    line-height: 52px;
+    margin-left: -10vw;
+    margin-top: 108vw;
+    width: 65vw;
+    z-index: 1;
 }.twentytwentyone{
     position: absolute;
-    margin-left: 0vw;
-    margin-top: 340vw;
-    color: #34294E;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 949;
-    font-size: 20vw;
-    line-height: 52px;
+    margin-left: -10vw;
+    margin-top: 337vw;
+    width: 65vw;
+    z-index: 1;
 }.pretwentytwentyone{
     position: absolute;
     margin-left: 35vw;
@@ -326,6 +342,7 @@ body {
     right:-5vw;
     transform: translateZ(30px);
 }.SingVex{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 29vw;
@@ -333,14 +350,15 @@ body {
     margin-left: 45vw;
     margin-top: 0;
 }.SSTxBVYN{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 47vw;
     display: flex;
     margin-left: 3vw;
     margin-top: 11vw;
 }.SST-SUTD{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 35vw;
@@ -348,14 +366,15 @@ body {
     margin-left: 50vw;
     margin-top: 42vw;
 }.SSTInvestiture{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 33vw;
     display: flex;
     margin-left: -1vw;
     margin-top: 70vw;
 }.ttorientation{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 35vw;
@@ -363,14 +382,15 @@ body {
     margin-left: 53vw;
     margin-top: 95vw;
 }.girlsinstem{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 30vw;
     display: flex;
     margin-left: -1vw;
     margin-top: 127vw;
 }.MinsterEdu{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
@@ -378,14 +398,15 @@ body {
     margin-left: 46vw;
     margin-top: 148vw;
 }.t4g{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 40vw;
     display: flex;
     margin-left: -1vw;
     margin-top: 172vw;
 }.MinsterTrans{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 32vw;
@@ -393,14 +414,15 @@ body {
     margin-left: 48vw;
     margin-top: 197vw;
 }.toFirstLegoLeague{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 47vw;
     display: flex;
     margin-left: -1vw;
     margin-top: 224vw;
 }.saw{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 36vw;
@@ -408,14 +430,15 @@ body {
     margin-left: 45vw;
     margin-top: 240vw;
 }.toorientation{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 36vw;
     display: flex;
     margin-left: 1vw;
     margin-top: 288vw;
 } .tofll{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 50vw;
@@ -423,6 +446,7 @@ body {
     margin-left: 59vw;
     margin-top: 290vw;
 }.science{
+    z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 29vw;
@@ -430,40 +454,40 @@ body {
     margin-left: 50vw;
     margin-top: 350vw;
 }.nrc{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
     margin-left: -1vw;
     margin-top: 364vw;
 }.innofest{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
     margin-left: 20vw;
     margin-top: 409vw;
 }.innoscience{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
     margin-left: 0vw;
     margin-top: 455vw;
 }.IVP{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 45vw;
     display: flex;
     margin-left: 51vw;
     margin-top: 480vw;
 }.vicehead{
-    transform-style: preserve-3d;
     z-index: 2;
+    transform-style: preserve-3d;
     position: absolute;
     height: 45vw;
     display: flex;
@@ -471,7 +495,7 @@ body {
     margin-top: 500vw;
 }
 
-.fourthpage{
+#fourthpage{
     padding-left: 2.05vw;
     margin-bottom: 20vw;
     /* border: 1px solid #848484; */
@@ -513,9 +537,11 @@ body {
     display: flex;
     align-items: baseline;
     justify-content: center;
+}.award:hover{
+    color:#6E6BF9;
 }
 
-.lastpage{
+#lastpage{
     display: block;
     height: 100%;
     padding-left: 2.05vw;
