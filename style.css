@@ -1,3 +1,6 @@
+@import url(https://fonts.google.com/specimen/Inter?query=inter);
+@import url(https://fonts.google.com/specimen/Courier+Prime?query=cour);
+
 html {
     scroll-behavior: smooth;
 }
@@ -35,9 +38,11 @@ body {
 } .sticky {
     position: fixed;
     top: 0vw;
+    height: 6vh;
+    padding-bottom: 1vh;
     /* padding-top: 2.5vw; */
-    width: 98%;
-    background-image: linear-gradient(#0e0e0e83,#0e0e0e83,#0e0e0e83,#0e0e0e83,#0e0e0e83,transparent);
+    width: 100%;
+    background-image: linear-gradient(#34294ed6,#34294ed6,#34294ed6,#34294ed6,#34294ed6,transparent);
 }.sticky + .content {
     padding-top: 102px;
 }.Yanzhao{
@@ -86,6 +91,17 @@ body {
     color: #848484;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    /* .perpendicular-line {
+        border-color: red;
+    } */
+    .starttext{
+        font-size: 10rem;
+    }
+
+}
+
 
 #initialpage{
     background-color: black;
@@ -152,6 +168,7 @@ body {
     font-size: 2vw;
     color: #848484;
 } .LiuYanzhao{
+    text-decoration:none;
     color:#840CC2
 } .transition{
     position: absolute;
