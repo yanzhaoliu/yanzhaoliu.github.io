@@ -4,10 +4,8 @@
 }
 @font-face {
     font-family: Courier;
-    src: url(Font/Courier.ttc);
+    src: url(Fonts/Courier.ttf);
 }
-
-
 
 html {
     scroll-behavior: smooth;
@@ -237,7 +235,13 @@ body {
 } .LiuYanzhao{
     text-decoration:none;
     color:#840CC2
-} .transition{
+} #LiuYanzhaoTitle{
+    text-decoration:none;
+    color:#840CC2
+}
+
+
+.transition{
     position: absolute;
     bottom: 0;
     height: 26.8vh;
@@ -266,7 +270,7 @@ body {
     color: #323232;
     font-family: 'Courier';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 50;
     font-size: 2.2vw;
     line-height: 52px;
     display: flex;

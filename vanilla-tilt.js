@@ -523,3 +523,38 @@ function menuDropDown() {
     x.style.display = "block";
   }
 }
+
+
+var texts = [
+  "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
+  "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
+  "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
+  "I$$%ozUtons","#$xS[]∫y","#$x8n]Zty",":;;{sdf8sg","9hYv##","-+bf~``","&*{##@","C*d@","C*de",
+  "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
+  "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
+  "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
+  "C*^0","$%wH*^0","$&dsfGHH","dfb+=]]/?","<<%!!@hG","80hgThbE","h67vfe","W&#sfGeH","Websf:eH",
+  "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
+  "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
+  "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
+  "We^.d:&He","Re&*[}+~U","h∂πø¨¥†®","]|##≈hv%^","hb∫y¥ø5gJ","p:;x0+C","$&dsfGcH","He%#Y-re",
+  "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
+  "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
+  "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
+  "H9*->ar7xY","89*&#>r7xYdd","##@=6+b&xYdx0","hy x¥†wd$6B","hU& &0-++ Vt",
+  "## Sol7*9bJ","{jYuc@¨pionM","oT s(nn5@0M","I-(V6+]ttdn8","IT6Vo+Ut+ons"
+]
+
+var point = 0;
+
+function changeText(){
+  document.getElementById("noun").innerHTML = texts[point];
+  if(point < ( texts.length - 1 ) ){
+    point++;
+  }else{
+    point = 0;
+  }
+}
+ 
+setInterval(changeText, 100); /*Call it here*/
+changeText();
