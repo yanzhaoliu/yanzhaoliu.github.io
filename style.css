@@ -52,7 +52,8 @@ body {
     padding-bottom: 1vh;
     /* padding-top: 2.5vw; */
     width: 100%;
-    background-image: linear-gradient(#34294ed6,#34294ed6,#34294ed6,#34294ed6,#34294ed6,transparent);
+    /* background-image: linear-gradient(#34294ed6,#34294ed6,#34294ed6,#34294ed6,#34294ed6,transparent); */
+    background-color: #22173a
 }.sticky + .content {
     padding-top: 102px;
 }.Yanzhao {
@@ -107,7 +108,7 @@ body {
 }#myLinks {
     z-index: 4;
     width: 100vw;
-    background-color: #34294ed6;
+    background-color: #22173a;
     left: 0;
     position: absolute;
     display: none;
