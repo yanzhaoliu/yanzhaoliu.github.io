@@ -529,20 +529,31 @@ var texts = [
   "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
   "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
   "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
-  "I$$%ozUtons","#$xS[]∫y","#$x8n]Zty",":;;{sdf8sg","9hYv##","-+bf~``","&*{##@","C*d@","C*de",
+  "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
+  "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
+  "IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions","IT Solutions",
+  "I$$%ozUtons","#$xS[]∫y","#$x8n]Zty",":;;{sdf8sg","9hYv##","*8nT†s","#1@bT(","57btHY","0)l~vT","PgTbD7","-+bf~``","&*{##@","C*d@","C*de",
   "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
   "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
   "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
-  "C*^0","$%wH*^0","$&dsfGHH","dfb+=]]/?","<<%!!@hG","80hgThbE","h67vfe","W&#sfGeH","Websf:eH",
+  "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
+  "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
+  "Code","Code","Code","Code","Code","Code","Code","Code","Code","Code",
+  "C*^0","$%wH*^0","$&dsfGHH","ddsf7^%^","πpgtd7-h","7gR4b_+~","@@#,>>+}","7gH5$~'|","dfb+=]]/?","<<%!!@hG","80hgThbE","h67vfe","W&#sfGeH","Websf:eH",
   "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
   "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
   "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
-  "We^.d:&He","Re&*[}+~U","h∂πø¨¥†®","]|##≈hv%^","hb∫y¥ø5gJ","p:;x0+C","$&dsfGcH","He%#Y-re",
+  "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
+  "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
+  "Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites","Websites",
+  "We^.d:&He","Re&*[}+~U","h∂πø¨¥†®","]|##≈hv%^","hb∫y¥ø5gJ","oP(v¥4%","3##4vTb","0#4vGh!t","pB45v#5","hN3#2b&","p:;x0+C","$&dsfGcH","He%#Y-re",
   "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
   "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
   "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
-  "H9*->ar7xY","89*&#>r7xYdd","##@=6+b&xYdx0","hy x¥†wd$6B","hU& &0-++ Vt",
-  "## Sol7*9bJ","{jYuc@¨pionM","oT s(nn5@0M","I-(V6+]ttdn8","IT6Vo+Ut+ons"
+  "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
+  "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
+  "Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware","Hardware",
+  "H9*->ar7xY","89*&#>r7xYdd","##@=6+b&xYdx0","hy x¥†wd$6B","yhB R69)jb#t","πnhtVmnr5s®b","5$eDc$*9hb^y","@#noH7*9(]cE","hU& &0-++ Vt","## Sol7*9bJ","{jYuc@¨pionM","oT s(nn5@0M","I-(V6+]ttdn8","IT6Vo+Ut+ons",
 ]
 
 var point = 0;
@@ -556,5 +567,5 @@ function changeText(){
   }
 }
  
-setInterval(changeText, 100); /*Call it here*/
+setInterval(changeText, 50); /*Call it here*/
 changeText();
