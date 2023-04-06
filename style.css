@@ -66,6 +66,7 @@ body {
     margin: auto;
     height: 2vw;
 }.mainheaderi {
+    z-index:5;
     margin: 0px;
     height: 100%;
     display: flex;
@@ -105,14 +106,15 @@ body {
     padding-left: 4vw;
 }#myLinks {
     z-index: 4;
-    width: 60vw;
+    width: 100vw;
     background-color: #34294ed6;
-    height: 100vh;
     left: 0;
     position: absolute;
     display: none;
     padding-top: 5vh;
 }.dropdownmenu {
+    position: relative;
+    z-index: 1;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -123,8 +125,8 @@ body {
     margin-block-end: 1rem;
     padding-left: 1rem;
 
-    display: block;
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }.dropdownYanzhao{
     margin: auto;
     padding-right: 2vw;
@@ -153,6 +155,8 @@ body {
         align-self: center;
         padding-right: 2.5vw;
         left: 0;
+        /* border: 1px solid #ccc;
+        text-align: center; */
     }.dropdownYanzhao{
         display: flex;
     }
