@@ -569,3 +569,34 @@ function changeText(){
  
 setInterval(changeText, 50); /*Call it here*/
 changeText();
+
+function fadeOut(el) {
+  var opacity = 1; // Initial opacity
+  var interval = setInterval(function() {
+      if (opacity > 0) {
+        opacity -= 0.1;
+        el.style.opacity = opacity;
+      } else {
+        clearInterval(interval); // Stop the interval when opacity reaches 0
+        el.style.display = 'none'; // Hide the element
+      }
+  }, 100);
+}
+
+document.getElementById("perpendicular-line").style.display = 'none';
+document.getElementById("initialpage").style.display = 'none';
+document.getElementById("secondpage").style.display = 'none';
+document.getElementById("thirdpage").style.display = 'none';
+document.getElementById("fourthpage").style.display = 'none';
+document.getElementById("lastpage").style.display = 'none';
+setTimeout(() => {
+  var box = document.getElementById("hello");
+  document.getElementById("perpendicular-line").style.display = 'block';
+  document.getElementById("initialpage").style.display = 'block';
+  document.getElementById("secondpage").style.display = 'block';
+  document.getElementById("thirdpage").style.display = 'block';
+  document.getElementById("fourthpage").style.display = 'block';
+  document.getElementById("lastpage").style.display = 'block';
+
+  fadeOut(box);
+},5000);
