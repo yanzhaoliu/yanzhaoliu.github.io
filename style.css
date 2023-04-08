@@ -43,14 +43,14 @@ body {
     color: #e4bb68;
 }.loadingImage{
     position:absolute;
-    margin-bottom: 10vh;
+    margin-bottom: 10vmin;
     z-index:6;
-    height:4vw;
-    width:4vw;
+    height:5vmin;
+    width:5vmin;
     display: block;
 }.coolanimation{
     position: absolute;
-    margin-top: 10vh;
+    margin-top: 10vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,6 +306,8 @@ body {
     margin-left: 4.5vw;
     margin-top: 1vh;
 }.starttext{
+    position: relative;
+    z-index: 2;
     padding-left: 2.05vw;
     margin-block-start: 2vw;
     margin-block-end: 2vw;
@@ -321,9 +323,9 @@ body {
         font-size: 0.8rem;
     }
 }
-
-
 .starttextbottom{
+    position: relative;
+    z-index: 2;
     padding-left: 2.05vw;
     margin-block-start: 2vw;
     margin-block-end: 2vw;
@@ -343,6 +345,7 @@ body {
 
 .transition{
     position: absolute;
+    z-index: 1;
     bottom: 0;
     height: 26.8vh;
     width: 100vw;
