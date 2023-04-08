@@ -418,7 +418,7 @@ var VanillaTilt = (function () {
       extendSettings(settings) {
         let defaultSettings = {
           reverse: true,
-          max: 5,
+          max: 15,
           startX: 0,
           startY: 0,
           perspective: 1000,
@@ -600,3 +600,26 @@ setTimeout(() => {
 
   fadeOut(box);
 },5000);
+
+
+function moreinfo(className) {
+  var x = document.getElementById(className.concat("MO"));
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+    // var height = 0; 
+    // var interval = setInterval(function() {
+    //     var strs = ""
+    //     if (height < 100) {
+    //       height += 1;
+    //       document.getElementById("bigImage").style.height = strs.concat(height,"vh")
+    //     } else {
+    //       clearInterval(interval); 
+    //       moreinfotext
+    //       document.getElementById("moreinfotext").style.display = 'block';
+    //     }
+    // }, 2);
+    
+  }
+}

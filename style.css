@@ -7,6 +7,7 @@
     src: url(Fonts/Courier.ttf);
 }
 
+
 html {
     scroll-behavior: smooth;
     width: 100%;
@@ -135,7 +136,7 @@ body {
     width: 100%;
     height:7vh;
     display:flex;
-    z-index: 5;
+    z-index: 6;
     position: absolute;
 } .sticky {
     position: fixed;
@@ -491,14 +492,6 @@ body {
         font-size:0.8rem;
     }
 }
-
-.imaget{
-    display: inline-block;
-}.imageb{
-    display: none;
-    height: 100%;
-    width: 100%;
-}
 /* }.SingVex:hover .imageb{
     transition-delay: 1000ms;
     display: inline-block;
@@ -737,6 +730,95 @@ body {
     margin-left: 5vw;
     margin-top: 500vw;
 }
+
+#SingVexMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}.moreInfoBox{
+    border-radius: 10px;
+    z-index: 6;
+    background-color: black;
+    margin-top: 10vh;
+    height: 85vh;
+    width: 90vw;
+    display: flex;
+}#bigImage{
+    border-radius: 10px 0px 0px 10px;
+    background-color: grey;
+    z-index: 5;
+    position: relative;
+    height: inherit;
+    width: 40vw;
+    object-fit: scale-down;
+}
+
+#moreinfotext{
+    width: 60vw;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}.moreinfoHEAD{
+    text-align: center;
+    position: relative;
+    padding-left: 2.05vw;
+    margin-block-start: 2vw;
+    margin-block-end: 2vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #840CC2;
+}.moreinfoBODY{
+    text-align:left;
+    position: relative;
+    padding-left: 2.05vw;
+    margin-block-start: 2vw;
+    margin-block-end: 2vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    color: white;
+}.backButton{
+    margin: 2.05vw;
+    text-align:center;
+    position: relative;
+    margin-block-start: 2vw;
+    margin-block-end: 2vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #840CC2;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid #840CC2;
+    text-decoration: none;
+}.backButton:hover{
+    color: white;
+    background-color: #840CC2;
+    border: 1px solid white;
+}
+@media (max-width:600px){
+    .moreInfoBox{
+        overflow-y: scroll;
+        display: block;
+    }#bigImage{
+        height: auto;
+        width: 100%;
+    }#moreinfotext{
+        padding: 0;
+        width: 100%;
+    }
+}
+
+
 
 #fourthpage{
     overflow-y: hidden;
