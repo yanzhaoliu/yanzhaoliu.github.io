@@ -577,7 +577,7 @@ body {
     bottom: -16vw;
     right:-5vw;
     transform: translateZ(30px);
-}.SingVex{
+}#SingVex{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -585,7 +585,7 @@ body {
     display: flex;
     margin-left: 45vw;
     margin-top: 0;
-}.SSTxBVYN{
+}#SSTxBVYN{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -593,7 +593,7 @@ body {
     display: flex;
     margin-left: 3vw;
     margin-top: 11vw;
-}.SST-SUTD{
+}#SST-SUTD{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -601,7 +601,7 @@ body {
     display: flex;
     margin-left: 50vw;
     margin-top: 42vw;
-}.SSTInvestiture{
+}#SSTInvestiture{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -609,7 +609,7 @@ body {
     display: flex;
     margin-left: -1vw;
     margin-top: 70vw;
-}.ttorientation{
+}#ttorientation{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -617,7 +617,7 @@ body {
     display: flex;
     margin-left: 53vw;
     margin-top: 95vw;
-}.girlsinstem{
+}#girlsinstem{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -625,7 +625,7 @@ body {
     display: flex;
     margin-left: -1vw;
     margin-top: 127vw;
-}.MinsterEdu{
+}#MinsterEdu{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -633,7 +633,7 @@ body {
     display: flex;
     margin-left: 46vw;
     margin-top: 148vw;
-}.t4g{
+}#t4g{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -641,7 +641,7 @@ body {
     display: flex;
     margin-left: -1vw;
     margin-top: 172vw;
-}.MinsterTrans{
+}#MinsterTrans{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -649,7 +649,7 @@ body {
     display: flex;
     margin-left: 48vw;
     margin-top: 197vw;
-}.toFirstLegoLeague{
+}#toFirstLegoLeague{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -657,7 +657,7 @@ body {
     display: flex;
     margin-left: -1vw;
     margin-top: 224vw;
-}.saw{
+}#saw{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -665,7 +665,7 @@ body {
     display: flex;
     margin-left: 45vw;
     margin-top: 240vw;
-}.toorientation{
+}#toorientation{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -673,7 +673,7 @@ body {
     display: flex;
     margin-left: 1vw;
     margin-top: 288vw;
-} .tofll{
+}#tofll{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -681,7 +681,7 @@ body {
     display: flex;
     margin-left: 59vw;
     margin-top: 290vw;
-}.science{
+}#science{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -689,7 +689,7 @@ body {
     display: flex;
     margin-left: 50vw;
     margin-top: 350vw;
-}.nrc{
+}#nrc{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -697,7 +697,7 @@ body {
     display: flex;
     margin-left: -1vw;
     margin-top: 364vw;
-}.innofest{
+}#innofest{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -705,7 +705,7 @@ body {
     display: flex;
     margin-left: 20vw;
     margin-top: 409vw;
-}.innoscience{
+}#innoscience{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -713,7 +713,7 @@ body {
     display: flex;
     margin-left: 0vw;
     margin-top: 455vw;
-}.IVP{
+}#IVP{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -721,7 +721,7 @@ body {
     display: flex;
     margin-left: 51vw;
     margin-top: 480vw;
-}.vicehead{
+}#vicehead{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
@@ -749,6 +749,159 @@ body {
     right: 0;
     display: none;
     justify-content: center;
+}#SST-SUTDMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#SSTInvestitureMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#ttorientationMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#girlsinstemMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#MinisterEduMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#t4gMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#MinsterTransMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#toFirstLegoLeagueMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#sawMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#toorientationMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#tofllMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#scienceMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#nrcMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#innofestMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#innoscienceMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#IVPMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+}#viceheadMO{
+    position: fixed;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center; 
 }
 
 .moreInfoBox{
@@ -844,8 +997,8 @@ body {
     text-align:left;
     position: relative;
     padding-left: 2.05vw;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 100;
