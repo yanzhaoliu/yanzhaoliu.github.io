@@ -620,6 +620,62 @@ function moreinfo(className) {
     //       document.getElementById("moreinfotext").style.display = 'block';
     //     }
     // }, 2);
-    
   }
 }
+
+
+function isInViewport(el) {
+  const element = document.getElementById(el);
+  const rect = element.getBoundingClientRect();
+  return (
+      rect.bottom <= 0
+  );
+}
+
+function ChangeColour(el) {
+  document.getElementById(el).style.color = "white";
+}
+
+document.addEventListener('scroll', function () {
+  if (isInViewport("lastpage")) {
+    
+  } else if (isInViewport("fourthpage")) {
+    document.getElementById("Contacts").style.color = "white";
+
+    document.getElementById("About").style.color = "#848484";
+    document.getElementById("Portfolio").style.color = "#848484";
+    document.getElementById("Awards").style.color = "#848484";
+    document.getElementById("Start").style.color = "#848484";
+  } else if (isInViewport("thirdpage")) {
+    document.getElementById("Awards").style.color = "white";
+
+    document.getElementById("About").style.color = "#848484";
+    document.getElementById("Portfolio").style.color = "#848484";
+    document.getElementById("Contacts").style.color = "#848484";
+    document.getElementById("Start").style.color = "#848484";
+  } else if (isInViewport("secondpage")) {
+    document.getElementById("Portfolio").style.color = "white";
+
+    document.getElementById("About").style.color = "#848484";
+    document.getElementById("Awards").style.color = "#848484";
+    document.getElementById("Contacts").style.color = "#848484";
+    document.getElementById("Start").style.color = "#848484";
+  } else if (isInViewport("initialpage")) {
+    document.getElementById("About").style.color = "white";
+
+    document.getElementById("Portfolio").style.color = "#848484";
+    document.getElementById("Awards").style.color = "#848484";
+    document.getElementById("Contacts").style.color = "#848484";
+    document.getElementById("Start").style.color = "#848484";
+  } else{
+    document.getElementById("Start").style.color = "white";
+
+    document.getElementById("About").style.color = "#848484";
+    document.getElementById("Portfolio").style.color = "#848484";
+    document.getElementById("Awards").style.color = "#848484";
+    document.getElementById("Contacts").style.color = "#848484";
+  }
+  
+}, {
+  passive: true
+});

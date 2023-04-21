@@ -229,7 +229,18 @@ body {
     justify-content: flex-end;
     align-content: center;
     display: none;
+}#Contacts{
+    color: #848484;
+}#Awards{
+    color: #848484;
+}#Portfolio{
+    color: #848484;
+}#About{
+    color: #848484;
+}#Start{
+    color: white;
 }
+
 
 @media(max-width:600px){
 
