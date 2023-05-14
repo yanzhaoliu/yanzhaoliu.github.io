@@ -30,18 +30,24 @@ body {
 
 
 #hello{
-    z-index:5;
-    position: absolute;
+    z-index:6;
+    position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color:black;
     font-family: Courier;
     font-size: 2vmin;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #e4bb68;
+    border-color: black;
+    background-color: black;
+
+    /* border-radius: 10px;
+    margin-top: 10vh;
+    height: 85vh;
+    width: 90vw;
+    left: 5vw; */
 }.loadingImage{
     position:absolute;
     margin-bottom: 10vmin;
@@ -56,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.stringl {
+#stringl {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -75,7 +81,7 @@ body {
 }.closure::before {
   content: '';
   position: absolute;
-  height: 30vmin;
+  height: 35vmin;
   width: 40vmin;
   background: black;
   transform: translate(-40vmin, 5vmin);
@@ -742,6 +748,17 @@ body {
     margin-top: 500vw;
 }
 
+#MoreinfoContainer{
+    z-index: 5;
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
 #SingVexMO{
     position: fixed;
     z-index: 5;
@@ -1169,5 +1186,5 @@ body {
 }@media (max-width:600px){
     .footer{
         font-size: 0.5rem;
-    }
+    }                        
 }

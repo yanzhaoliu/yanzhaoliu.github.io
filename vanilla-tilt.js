@@ -571,7 +571,7 @@ setInterval(changeText, 50); /*Call it here*/
 changeText();
 
 function fadeOut(el) {
-  var opacity = 1; // Initial opacity
+  var opacity = el.style.opacity; // Initial opacity
   var interval = setInterval(function() {
       if (opacity > 0) {
         opacity -= 0.1;
@@ -589,7 +589,7 @@ document.getElementById("secondpage").style.display = 'none';
 document.getElementById("thirdpage").style.display = 'none';
 document.getElementById("fourthpage").style.display = 'none';
 document.getElementById("lastpage").style.display = 'none';
-setTimeout(() => {
+window.onload = () => {
   var box = document.getElementById("hello");
   document.getElementById("perpendicular-line").style.display = 'block';
   document.getElementById("initialpage").style.display = 'block';
@@ -599,29 +599,32 @@ setTimeout(() => {
   document.getElementById("lastpage").style.display = 'block';
 
   fadeOut(box);
-},5000);
-
+  box.style.height = '85vh';
+  box.style.width = '90vw';
+  box.style.left = '5vw';
+  box.style.marginTop = '10vh';
+  box.style.borderRadius = '10px';
+}
 
 function moreinfo(className) {
   var x = document.getElementById(className.concat("MO"));
+  var v = document.getElementById("MoreinfoContainer")
+  var box = document.getElementById("hello");
   if (x.style.display === "flex") {
     x.style.display = "none";
+    v.style.display = "none";
   } else {
-    x.style.display = "flex";
-    // var height = 0; 
-    // var interval = setInterval(function() {
-    //     var strs = ""
-    //     if (height < 100) {
-    //       height += 1;
-    //       document.getElementById("bigImage").style.height = strs.concat(height,"vh")
-    //     } else {
-    //       clearInterval(interval); 
-    //       moreinfotext
-    //       document.getElementById("moreinfotext").style.display = 'block';
-    //     }
-    // }, 2);
+    box.style.display = 'flex';
+    box.style.opacity = 1;
+    v.style.display = "block";
+    setTimeout(() => {
+      x.style.display = "flex";
+      box.style.display = "none";
+    },2000)
   }
 }
+
+
 
 
 function isInViewport(el) {
