@@ -606,22 +606,36 @@ window.onload = () => {
   box.style.borderRadius = '10px';
 }
 
-function moreinfo(className) {
-  var x = document.getElementById(className.concat("MO"));
-  var v = document.getElementById("MoreinfoContainer")
-  var box = document.getElementById("hello");
-  if (x.style.display === "flex") {
-    x.style.display = "none";
-    v.style.display = "none";
-  } else {
-    box.style.display = 'flex';
-    box.style.opacity = 1;
-    v.style.display = "block";
-    setTimeout(() => {
+function moreinfo(className, mode) {
+  if (mode == 1){
+    var x = document.getElementById(className.concat("MO"));
+    var v = document.getElementById("MoreinfoContainer")
+    var box = document.getElementById("hello");
+    if (x.style.display == "flex") {
+      x.style.display = "none";
+      v.style.display = "none";
+    } else {
+      box.style.display = 'flex';
+      box.style.opacity = 1;
+      v.style.display = "flex";
+      setTimeout(() => {
+        x.style.display = "flex";
+        box.style.display = "none";
+      },2000)
+    }
+  }else{
+    // console.log(className.concat("MO"), document.getElementById(className.concat("MO")).style.display)
+    var x = document.getElementById(className.concat("MO"));
+    var v = document.getElementById("MoreinfoContainer")
+    if (x.style.display == "flex") {
+      x.style.display = "none";
+      v.style.display = "none";
+    } else {
       x.style.display = "flex";
-      box.style.display = "none";
-    },2000)
+      v.style.display = "flex";
+    }
   }
+  
 }
 
 
