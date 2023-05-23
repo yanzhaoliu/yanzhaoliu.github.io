@@ -198,7 +198,8 @@ body {
 }.menulink {
     color: #848484;
     text-decoration: none;
-}.hamburger {
+}
+.hamburger {
     z-index: 5;
     display: none;
     height: 2.5vh;
