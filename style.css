@@ -1106,6 +1106,7 @@ body {
     align-items: baseline;
     justify-content: center;
 }.award{
+    cursor: pointer;
     text-align: center;
     position:relative;
     z-index: 2;
@@ -1128,6 +1129,102 @@ body {
         font-size: 0.8rem;
     }.awardtitle{
         font-size: 0.8rem;
+    }
+}
+
+#Certificates{
+    cursor: pointer;
+    z-index: 7;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: none;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: center;
+}.x{
+    position: absolute;
+    top: 2vh;
+    left: 96vw;
+    width: 1.5rem;
+}.CertificateImage{
+    height: 60vw;
+}#Cisco{
+    display: none;
+}#ACHIEVEMENT2020{
+    display: none;
+}#ACHIEVEMENT2022{
+    display: none;
+}#AIO{
+    display: none;
+}#CAT{
+    display: none;
+}#CAT2{
+    display: none;
+}#CBPAULS{
+    display: none;
+}#Chinese{
+    display: none;
+}#EAGLES2022{
+    display: none;
+}#EDUSAVE2022{
+    display: none;
+}#FLL2021{
+    display: none;
+}#IDE{
+    display: none;
+}#MERIT2020{
+    display: none;
+}#MERIT2021{
+    display: none;
+}#MERITBURSARY2022{
+    display: none;
+}#NRC{
+    display: none;
+}#SUTD{
+    display: none;
+}#BrainHack{
+    display: none;
+}#OpportunityXAwards{
+    display: none;
+}#BEBRAS{
+    display: none;
+}#FLL{
+    display: none;
+}#PERSE2021{
+    display: none;
+}#PERSE2022{
+    display: none;
+}#AISingapore{
+    display: none;
+}#APPLE{
+    display: none;
+}#ScienceExplorationChallenge{
+    display: none;
+}#INC{
+    display: none;
+}#Second{
+    display: none;
+}#Innovative{
+    display: none;
+}#Popular{
+    display: none;
+}#Prototype{
+    display: none;
+}#t4g{
+    display: none;
+}#Innoscience{
+    display: none;
+}
+@media(max-width:600px){
+    .x{
+        position: absolute;
+        top: 2vh;
+        left: 90vw;
+        width: 1.5rem;
     }
 }
 

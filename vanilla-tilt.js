@@ -638,6 +638,22 @@ function moreinfo(className, mode) {
   
 }
 
+function certificate(idName){
+  var ID = document.getElementById(idName);
+  var Certificates = document.getElementById("Certificates");
+  if (Certificates.style.display == "flex"){
+    Certificates.style.display = "none";
+    let children = Certificates.children;
+    for (let i = 0; i < children.length; i++) {
+        children[i].style.display = "none";
+    }
+  }else{
+    console.log("press");
+    Certificates.style.display = "flex";
+    ID.style.display = "flex";
+  }
+}
+
 
 
 
