@@ -1145,7 +1145,7 @@ body {
     flex-flow:row wrap;
     align-items: center;
     justify-content: center;
-}.x{
+}#x{
     position: absolute;
     top: 2vh;
     left: 96vw;
@@ -1220,7 +1220,7 @@ body {
     display: none;
 }
 @media(max-width:600px){
-    .x{
+    #x{
         position: absolute;
         top: 2vh;
         left: 90vw;

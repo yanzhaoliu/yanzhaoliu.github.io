@@ -645,8 +645,9 @@ function certificate(idName){
     Certificates.style.display = "none";
     let children = Certificates.children;
     for (let i = 0; i < children.length; i++) {
-        children[i].style.display = "none";
+      children[i].style.display = "none";
     }
+    document.getElementById("x").style.display = "flex";
   }else{
     console.log("press");
     Certificates.style.display = "flex";
