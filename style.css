@@ -705,7 +705,7 @@ body {
     position: absolute;
     height: 29vw;
     display: flex;
-    margin-left: 50vw;
+    margin-left: 53vw;
     margin-top: 350vw;
 }#nrc{
     z-index: 2;
@@ -958,6 +958,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    
 }.bigimageS{
     display: flex;
     flex-direction: column;
@@ -985,7 +986,7 @@ body {
     font-size: 1rem;
     color: rgb(57, 57, 57);
 }.MONAVbutton{
-    color:rgb(57, 57, 57);
+    color:rgb(114, 114, 114);
     text-decoration: none;
 }.MONAVbutton:hover{
     color:#840CC2;
