@@ -681,7 +681,7 @@ body {
     position: absolute;
     height: 36vw;
     display: flex;
-    margin-left: 45vw;
+    margin-left: 46vw;
     margin-top: 240vw;
 }#toorientation{
     z-index: 2;
@@ -1125,7 +1125,8 @@ body {
 }
 .award:hover{
     color:#6E6BF9;
-}@media(max-width:600px){
+}
+    @media(max-width:600px){
     .award{
         font-size: 0.8rem;
     }.awardtitle{
@@ -1228,6 +1229,7 @@ body {
         width: 1.5rem;
     }
 }
+
 
 #lastpage{
     position: relative;
