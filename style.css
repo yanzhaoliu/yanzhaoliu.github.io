@@ -1154,7 +1154,12 @@ body {
     width: 1.5rem;
 }.CertificateImage{
     height: 90vh;
-}#Cisco{
+}@media(max-width:600px){
+    .CertificateImage{
+        height: 55vh;
+    }
+}
+#Cisco{
     display: none;
 }#ACHIEVEMENT2020{
     display: none;
@@ -1219,6 +1224,8 @@ body {
 }#Tech4Good{
     display: none;
 }#Innoscience{
+    display: none;
+}#PERSE22022{
     display: none;
 }
 @media(max-width:600px){
