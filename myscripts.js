@@ -621,7 +621,7 @@ function moreinfo(className, mode) {
       setTimeout(() => {
         x.style.display = "flex";
         box.style.display = "none";
-      },1000)
+      },500)
     }
   }else{
     // console.log(className.concat("MO"), document.getElementById(className.concat("MO")).style.display)
