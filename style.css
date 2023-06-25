@@ -464,33 +464,36 @@ body {
 
 
 #thirdpage{
+    position: relative;
     background-color: #0E0035;
     background-size:100%;
-    min-height: 570vw;
+    min-height: 590vw;
+    width: 100vw;
+    overflow: hidden;
     /* border: 1px solid #848484; */
 }.twentytwentythree{
     position: absolute;
-    margin-left: -10vw;
-    margin-top: -3vw;
-    width: 65vw;
+    margin-left: 9vw;
+    margin-top: 3.5vw;
+    width: 39vw;
     z-index: 1;
 }.twentytwentytwo{
     position: absolute;
-    margin-left: -10vw;
-    margin-top: 108vw;
-    width: 65vw;
+    margin-left: 7vw;
+    margin-top: 120vw;
+    width: 39vw;
     z-index: 1;
 }.twentytwentyone{
     position: absolute;
-    margin-left: -10vw;
-    margin-top: 337vw;
-    width: 65vw;
+    margin-left: 7vw;
+    margin-top: 345vw;
+    width: 39vw;
     z-index: 1;
 }.pretwentytwentyone{
     position: absolute;
-    margin-left: 35vw;
-    margin-top: 435vw;
-    width: 65vw;
+    margin-left: 55vw;
+    margin-top: 468vw;
+    width: 43vw;
     z-index: 1;
 }
 .selectedtxt{
@@ -601,26 +604,26 @@ body {
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 29vw;
+    height: 27vw;
     display: flex;
-    margin-left: 45vw;
-    margin-top: 0;
+    margin-left: 54vw;
+    margin-top: 6vw;
 }#SSTxBVYN{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 47vw;
     display: flex;
-    margin-left: 3vw;
-    margin-top: 11vw;
+    margin-left: 8vw;
+    margin-top: 16vw;
 }#SST-SUTD{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 35vw;
     display: flex;
-    margin-left: 50vw;
-    margin-top: 42vw;
+    margin-left: 54vw;
+    margin-top: 47vw;
 }#SSTInvestiture{
     z-index: 2;
     transform-style: preserve-3d;
@@ -628,127 +631,127 @@ body {
     height: 33vw;
     display: flex;
     margin-left: -1vw;
-    margin-top: 70vw;
+    margin-top: 75vw;
 }#ttorientation{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 35vw;
+    height: 37vw;
     display: flex;
-    margin-left: 53vw;
-    margin-top: 95vw;
+    margin-left: 54vw;
+    margin-top: 98vw;
 }#girlsinstem{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 30vw;
+    height: 33vw;
     display: flex;
-    margin-left: -1vw;
-    margin-top: 127vw;
+    margin-left: 0vw;
+    margin-top: 135vw;
 }#MinsterEdu{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
-    margin-left: 46vw;
-    margin-top: 148vw;
+    margin-left: 54vw;
+    margin-top: 151vw;
 }#t4g{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 40vw;
+    height: 43vw;
     display: flex;
-    margin-left: -1vw;
-    margin-top: 172vw;
+    margin-left: 0vw;
+    margin-top: 185vw;
 }#MinsterTrans{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 32vw;
     display: flex;
-    margin-left: 48vw;
-    margin-top: 197vw;
+    margin-left: -5vw;
+    margin-top: 245vw;
 }#toFirstLegoLeague{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 47vw;
+    height: 55vw;
     display: flex;
-    margin-left: -1vw;
-    margin-top: 224vw;
+    margin-left: 54vw;
+    margin-top: 200vw;
 }#saw{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 36vw;
     display: flex;
-    margin-left: 46vw;
-    margin-top: 240vw;
+    margin-left: 54vw;
+    margin-top: 265vw;
 }#toorientation{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 36vw;
     display: flex;
-    margin-left: 1vw;
-    margin-top: 288vw;
+    margin-left: -5vw;
+    margin-top: 295vw;
 }#tofll{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 50vw;
+    height: 55vw;
     display: flex;
-    margin-left: 59vw;
-    margin-top: 290vw;
+    margin-left: 54vw;
+    margin-top: 316vw;
 }#science{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 29vw;
     display: flex;
-    margin-left: 53vw;
-    margin-top: 350vw;
+    margin-left: 54vw;
+    margin-top: 384vw;
 }#nrc{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
-    margin-left: -1vw;
-    margin-top: 364vw;
+    margin-left: -2vw;
+    margin-top: 360vw;
 }#innofest{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
-    margin-left: 20vw;
-    margin-top: 409vw;
+    margin-left: 5vw;
+    margin-top: 425vw;
 }#innoscience{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 34vw;
     display: flex;
-    margin-left: 0vw;
-    margin-top: 455vw;
+    margin-left: 3vw;
+    margin-top: 467vw;
 }#IVP{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
     height: 45vw;
     display: flex;
-    margin-left: 51vw;
-    margin-top: 480vw;
+    margin-left: 54vw;
+    margin-top: 500vw;
 }#vicehead{
     z-index: 2;
     transform-style: preserve-3d;
     position: absolute;
-    height: 45vw;
+    height: 50vw;
     display: flex;
     margin-left: 5vw;
-    margin-top: 500vw;
+    margin-top: 515vw;
 }
 
 #MoreinfoContainer{
