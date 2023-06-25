@@ -638,21 +638,17 @@ function moreinfo(className, mode) {
   
 }
 
-function certificate(idName){
-  var ID = document.getElementById(idName);
-  var Certificates = document.getElementById("Certificates");
-  if (Certificates.style.display == "flex"){
-    Certificates.style.display = "none";
-    let children = Certificates.children;
-    for (let i = 0; i < children.length; i++) {
-      children[i].style.display = "none";
-    }
-    document.getElementById("x").style.display = "flex";
-  }else{
-    console.log("press");
-    Certificates.style.display = "flex";
-    ID.style.display = "flex";
-  }
+function ShowMore(){
+  var v = document.getElementById("CompetitionHidden");
+  if(document.getElementById("ShowMore").textContent == "Show more ▾"){
+    document.getElementById("ShowMore").textContent = "Show less ▴";
+    v.style.display = 'block'; 
+
+} else {
+  document.getElementById("ShowMore").textContent = "Show more ▾";
+    v.style.display = 'none'; 
+    // v.switchClass("CompetitionShown", "CompetitionHidden", 400);
+};
 }
 
 

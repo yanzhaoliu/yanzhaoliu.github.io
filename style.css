@@ -422,6 +422,7 @@ body {
     background-color: #151515;
     color: rgb(168, 168, 168);
 }.block{
+    cursor: text;
     display: flex;
     align-items: stretch;
     padding-bottom: .5rem;
@@ -530,24 +531,28 @@ body {
 
 
 .ImageGradientl{
+    cursor: pointer;
     background-image: linear-gradient(to bottom left, transparent, transparent, rgba(0, 0, 0, 0.93));
     z-index: 2;
     width: 100%;
     height: 100%;
     position: absolute;
 }.ImageGradientr{
+    cursor: pointer;
     background-image: linear-gradient(to bottom right, transparent, transparent, rgba(0, 0, 0, 0.93));
     z-index: 2;
     width: 100%;
     height: 100%;
     position: absolute;
 }.imagetexl{
+    cursor: pointer;
     position: absolute;
     width: 50%;
     height: 50%;
     z-index: 2;
     bottom: 0;
 }.titlel{
+    cursor: pointer;
     position: absolute;
     bottom: -5vw;
     left:-5vw;
@@ -562,6 +567,7 @@ body {
     border-bottom: 1px solid white;
     transform: translateZ(30px);
 }.subtitlel{
+    cursor: pointer;
     position: absolute;
     z-index: 3;
     
@@ -574,6 +580,7 @@ body {
     left:-4vw;
     transform: translateZ(50px) scaleY(1);
 }.titler{
+    cursor: pointer;
     position: absolute;
     bottom: -5vw;
     right:-5vw;
@@ -589,6 +596,7 @@ body {
     border-bottom: 1px solid white;
     transform: translateZ(30px);
 }.subtitler{
+    cursor: pointer;
     position: absolute;
     z-index: 3;
 
@@ -1375,6 +1383,7 @@ body {
 
 #fourthpage{
     overflow-y: hidden;
+    width: 100vw;
     padding-left: 2.05vw;
     margin-bottom: 20vw;
     /* border: 1px solid #848484; */
@@ -1414,7 +1423,40 @@ body {
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
-    
+}#CompetitionHidden{
+    cursor: default;
+    display: none;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}#awardP{
+    text-align: center;
+    position:relative;
+    z-index: 2;
+    margin-left: 3vw;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 1.6rem;
+    justify-content: center;
+}#ShowMore{
+    cursor: pointer;
+    text-align: center;
+    position:relative;
+    z-index: 2;
+    margin-left: 3vw;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
 }
 .f{
     color: rgb(183, 140, 32);
@@ -1473,6 +1515,10 @@ body {
         font-size: 0.8rem;
     }.t{
         font-size: 0.8rem;
+    }#ShowMore{
+        font-size: 0.8rem;
+    }#awardP{
+        font-size: 0.8rem;
     }
 }.award:hover{
     color:#6E6BF9;
@@ -1482,6 +1528,8 @@ body {
     color: rgb(232, 232, 232);
 }.award:hover .t{
     color: rgb(255, 143, 5);
+}#ShowMore:hover{
+    color:#6E6BF9;
 }
 
 #Certificates{
