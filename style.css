@@ -571,7 +571,7 @@ body {
     font-size: 3vw;
     font-weight: 350;
     bottom: -16vw;
-    left:-5vw;
+    left:-4vw;
     transform: translateZ(50px) scaleY(1);
 }.titler{
     position: absolute;
@@ -598,7 +598,7 @@ body {
     font-size: 3vw;
     font-weight: 350;
     bottom: -16vw;
-    right:-5vw;
+    right:-4vw;
     transform: translateZ(30px);
 }#SingVex{
     z-index: 2;
@@ -1267,6 +1267,9 @@ body {
 }.MONAVbutton{
     color:rgb(114, 114, 114);
     text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
 }.MONAVbutton:hover{
     color:#840CC2;
 }
@@ -1278,7 +1281,7 @@ body {
     text-align: left;
     position: relative;
     padding-left: 2.05vw;
-    margin-block-start: 0;
+    margin-block-start: 1vw;
     margin-block-end: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -1289,18 +1292,29 @@ body {
     text-align: left;
     position: relative;
     padding-left: 2.05vw;
-    margin-block-start: 2vw;
-    margin-block-end: 2vw;
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: #840CC2;
 }.MOtextContainer{
     margin-top: 1rem;
     width: 100%;
     height: 70%;
     overflow-y: scroll;
+}.moreinfoDESC{
+    text-align: left;
+    position: relative;
+    padding-left: 2.05vw;
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #840CC2;
 }
 .moreinfoBODY{
     text-align:left;
