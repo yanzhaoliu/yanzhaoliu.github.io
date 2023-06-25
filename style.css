@@ -198,6 +198,8 @@ body {
 }.menulink {
     color: #848484;
     text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap
 }
 .hamburger {
     z-index: 5;
