@@ -653,7 +653,6 @@ function ShowMore(){
 
 
 
-
 function isInViewport(el) {
   const element = document.getElementById(el);
   const rect = element.getBoundingClientRect();

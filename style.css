@@ -438,6 +438,10 @@ body {
     color: #BA7535;
     margin-block-start: 0;
     margin-block-end: 0;
+} .stringlink{
+    color: #BA7535;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 @media(max-width:600px){
     .coden{
