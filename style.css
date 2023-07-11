@@ -138,33 +138,57 @@ body {
     display:flex;
     z-index: 6;
     position: absolute;
+    /* justify-content: space-between; */
+    /* flex-flow:row wrap; */
 } .sticky {
     position: fixed;
     top: 0vw;
-    height: 6vh;
+    height: 7vh;
     padding-bottom: 1vh;
     width: 100%;
     background-color: #22173a
 }.sticky + .content {
     padding-top: 102px;
-}.Yanzhao {
+}.YanzhaoWEB {
     margin: auto;
-    padding-left: 2vw;
-    height: 2.5vh;
+    padding-left: 1vw;
+    height: 2vw;
+    width: 20vw;
     display: flex;
     justify-content: flex-end;
-    align-content: center;
+    flex-direction:row-reverse;
+}.YanzhaoPHONE{
+    display: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 30%;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction:row-reverse;
+    margin-right: 2vw;
 }.yanzhaoi {
+    cursor: pointer;
     margin: auto;
-    height: 2vw;
-}.mainheaderi {
+    /* height: 100%; */
+}.mainheaderiWEB {
     z-index:5;
     margin: 0px;
     height: 100%;
+    width: auto;
     display: flex;
     justify-content: flex-end;
     align-content: center;
-}.mainheader {
+}.mainheaderiPHONE {
+    z-index:5;
+    margin: 0px;
+    height: 100%;
+    width: 50%;
+    display: none;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.mainheader {
     margin: 0px;
     height: 100%;
     flex-grow: 1;
@@ -242,15 +266,20 @@ body {
 
 
 @media(max-width:600px){
-
     .mainheader{
         display:none;
-    }.Yanzhao{
+    }.YanzhaoWEB{
+        display:none;
+    }.mainheaderiWEB{
         display:none;
     }
+    .YanzhaoPHONE{
+        display:flex;
+    }.mainheaderiPHONE{
+        display:flex;
+    }
     .hamburger{
-        display:block;
-        width: 100%;
+        width: 50vw;
         height: 100%;
         display: flex;
         align-content: center;
@@ -320,7 +349,7 @@ body {
     margin-block-end: 2vw;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 3.5rem;
     color: white;
 }@media (max-width:600px){
@@ -439,9 +468,11 @@ body {
     margin-block-start: 0;
     margin-block-end: 0;
 } .stringlink{
-    color: #BA7535;
+    color: #b38050;
     margin-block-start: 0;
     margin-block-end: 0;
+}.stringlink:hover{
+    background-color: rgba(0, 0, 255, 0.424);
 }
 @media(max-width:600px){
     .coden{
@@ -1665,7 +1696,10 @@ body {
     .contactstext{
         font-size: 0.8rem;
     }
-}.githubi{
+}.contactstext:hover{
+    background-color: rgba(0, 0, 255, 0.528);
+}
+.githubi{
     height:5vw;
     width:5vw;
     align-self: center;
